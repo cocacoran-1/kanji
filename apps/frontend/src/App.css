@@ -1,0 +1,227 @@
+/* Reset and base styles (from index.css 역할 일부 포함) */
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark; /* 기본 테마 지원 */
+  color: rgba(255, 255, 255, 0.87); /* 다크 모드 기본 텍스트 */
+  background-color: #242424; /* 다크 모드 기본 배경 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Light theme overrides */
+@media (prefers-color-scheme: light) {
+  body {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  .App-header {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  .sidebar {
+    background-color: #f9f9f9;
+    border-right-color: #e0e0e0;
+  }
+  .sidebar h2 {
+    color: #2c3e50;
+  }
+  .sidebar li {
+    color: #34495e;
+    border-bottom-color: #ecf0f1;
+  }
+  .sidebar li:hover {
+    background-color: #ecf0f1;
+  }
+  .sidebar li.selected {
+    background-color: #3498db; /* Light theme selected color */
+    color: white;
+  }
+  .main-content {
+    background-color: #fff;
+    color: #333;
+  }
+  .kanji-details h2 {
+     color: #2c3e50;
+  }
+  .kanji-details strong {
+    color: #555;
+  }
+  .status-message, .placeholder-text, .error-message {
+    color: #555; /* Light theme text color for messages */
+  }
+  .error-message {
+    color: #c0392b; /* Light theme error color */
+  }
+}
+
+
+/* App specific styles */
+.App-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34; /* Dark theme header */
+  padding: 1rem 1.5rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.status-message, .placeholder-text, .error-message {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.error-message {
+  color: #e74c3c; /* Dark theme error color */
+  background-color: rgba(231, 76, 60, 0.1);
+  border: 1px solid rgba(231, 76, 60, 0.3);
+  margin: 10px 20px;
+  border-radius: 4px;
+}
+
+
+.content-layout {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden; /* Prevent layout issues with fixed height sidebar */
+}
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0; /* 사이드바 너비 고정 */
+  padding: 15px;
+  border-right: 1px solid #3a3a3a; /* Dark theme border */
+  background-color: #2c2c2c; /* Dark theme sidebar */
+  overflow-y: auto;
+  height: calc(100vh - 60px); /* Approximate header height */
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  color: #e0e0e0; /* Dark theme text */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #3f3f3f; /* Dark theme list item border */
+  color: #ccc; /* Dark theme list item text */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  font-size: 1.1em;
+}
+
+.sidebar li:last-child {
+  border-bottom: none;
+}
+
+.sidebar li:hover {
+  background-color: #383838;
+  color: #fff;
+}
+
+.sidebar li.selected {
+  background-color: #4a90e2; /* Dark theme selected color */
+  color: white;
+  font-weight: 600;
+}
+
+.sidebar li.disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 25px;
+  overflow-y: auto; /* 내용이 길어지면 스크롤 */
+  height: calc(100vh - 60px); /* Approximate header height */
+  /* background-color: #242424; 기본 body 배경색 사용 */
+}
+
+.kanji-details {
+  background-color: rgba(255,255,255,0.05); /* 살짝 밝은 배경 (다크모드) */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media (prefers-color-scheme: light) {
+  .kanji-details {
+    background-color: #f9f9f9; /* 라이트 모드 */
+    border: 1px solid #e0e0e0;
+  }
+}
+
+
+.kanji-details h2 {
+  font-size: 3.5em;
+  color: #61dafb; /* React 색상 또는 원하는 강조색 */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.kanji-details p {
+  font-size: 1.2em;
+  line-height: 1.7;
+  margin-bottom: 1em;
+  color: #ddd; /* Dark theme text */
+}
+@media (prefers-color-scheme: light) {
+  .kanji-details p {
+    color: #333; /* Light theme text */
+  }
+}
+
+
+.kanji-details strong {
+  color: #87cefa; /* LightSkyBlue for dark theme */
+  margin-right: 8px;
+}
+
+@media (prefers-color-scheme: light) {
+  .kanji-details strong {
+    color: #2980b9; /* Darker blue for light theme */
+  }
+}
+
+.placeholder-text {
+  font-size: 1.3em;
+  color: #888; /* Dark theme placeholder */
+  text-align: center;
+  margin-top: 60px;
+}
+@media (prefers-color-scheme: light) {
+  .placeholder-text {
+    color: #777; /* Light theme placeholder */
+  }
+}
+
+/* Remove default Vite styles if not needed */
+/* For example, if you have .logo, .card, etc. from Vite's template */
+/* You might want to remove or integrate them. */
+/* For this MVP, we are not using them directly in App.tsx */
+
+/* Ensure index.css provides minimal global resets if any */
+/* For this example, App.css is taking over most styling */
+/* It's common to have a more dedicated reset/normalize.css */
