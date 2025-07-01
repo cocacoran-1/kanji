@@ -63,6 +63,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%; /* 이 줄을 추가하여 화면 너비를 꽉 채웁니다. */
 }
 
 .App-header {
