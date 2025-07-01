@@ -7,11 +7,12 @@ import cors from 'cors';
 import fs from 'fs';
 import { Pool } from 'pg';
 
-// kanji_data.json 파일의 구조와 일치하는 타입 정의
+// 변경된 kanji_data.json 구조에 맞춘 타입 정의
 interface Kanji {
   kanji: string;
   level: string;
-  korean_meaning: string;
+  korean_meaning: string;       // 뜻
+  korean_pronunciation: string; // 음 (새로 추가)
   onyomi: string[];
   kunyomi: string[];
   strokes: number;
@@ -48,12 +49,15 @@ async function initializeDatabase() {
   }
 
   try {
+    // DB 테이블 생성: korean_pronunciation 컬럼 추가
+
     await pool.query(`
       CREATE TABLE IF NOT EXISTS kanji (
         id SERIAL PRIMARY KEY,
         kanji VARCHAR(5) NOT NULL UNIQUE,
         level VARCHAR(10),
         korean_meaning VARCHAR(50),
+        korean_pronunciation VARCHAR(50), -- 컬럼 추가
         onyomi TEXT[],
         kunyomi TEXT[],
         strokes INTEGER,
@@ -65,14 +69,17 @@ async function initializeDatabase() {
     console.log('Table "kanji" checked/created successfully.');
 
     for (const item of kanjiData) {
+      // INSERT 문 수정: korean_pronunciation 추가
       await pool.query(
-        `INSERT INTO kanji (kanji, level, korean_meaning, onyomi, kunyomi, strokes, radical, words, example_sentences)
-         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
-         ON CONFLICT (kanji) DO NOTHING;`,
+        `INSERT INTO kanji (kanji, level, korean_meaning, korean_pronunciation, onyomi, kunyomi, strokes, radical, words, example_sentences)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+         ON CONFLICT (kanji) DO NOTHING;`, // 이미 있는 한자는 건너뛰기
+
         [
           item.kanji,
           item.level,
           item.korean_meaning,
+          item.korean_pronunciation, // 파라미터 추가
           item.onyomi,
           item.kunyomi,
           item.strokes,
@@ -101,12 +108,12 @@ app.get('/api/kanji', async (req: Request, res: Response) => {
   }
 });
 
-// ✨✨✨ 새로 추가된 부분: 특정 한자 정보 반환 API ✨✨✨
+// GET /api/kanji/:character - 특정 한자 정보 반환
+
 app.get('/api/kanji/:character', async (req: Request, res: Response) => {
   const { character } = req.params;
   try {
     const result = await pool.query('SELECT * FROM kanji WHERE kanji = $1', [character]);
-
     if (result.rows.length === 0) {
       return res.status(404).json({ message: 'Kanji not found' });
     }
@@ -118,9 +125,15 @@ app.get('/api/kanji/:character', async (req: Request, res: Response) => {
   }
 });
 
-
 // --- 서버 시작 ---
 app.listen(port, async () => {
   console.log(`Backend server is running on http://localhost:${port}`);
+  // 서버 시작 시 DB 초기화 전, 기존 테이블을 삭제하여 변경사항을 확실히 반영
+  try {
+      await pool.query('DROP TABLE IF EXISTS kanji;');
+      console.log('Existing "kanji" table dropped to apply new schema.');
+  } catch (error) {
+      console.error('Could not drop table:', error);
+  }
   await initializeDatabase();
 });
