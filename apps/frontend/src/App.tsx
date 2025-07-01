@@ -2,23 +2,24 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-// 백엔드의 KanjiEntry와 유사한 인터페이스 (또는 공유 타입으로 분리 가능)
+// 변경된 백엔드 API 응답 구조에 맞춘 인터페이스
 interface Kanji {
   id: number;
-  kanji: string;
-  meanings: string[];
-  kunyomi: string[];
+  kanji: string; // 이 필드는 유지된다고 가정
+  korean_meaning: string;
   onyomi: string[];
-  stroke_count: number; // 백엔드 API 응답 필드명과 일치
-  jlpt_level?: string;
+  kunyomi: string[];
+  strokes: number;
+  words?: object[]; // JSONB로 오므로 object[] 또는 any[]
+  example_sentences?: object[]; // JSONB로 오므로 object[] 또는 any[]
 }
 
 function App() {
   const [kanjiList, setKanjiList] = useState<Kanji[]>([]);
   const [selectedKanji, setSelectedKanji] = useState<Kanji | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [loading, setLoading] = useState<boolean>(true); // 초기 로딩 상태 true
-  const [detailLoading, setDetailLoading] = useState<boolean>(false); // 상세 정보 로딩 상태
+  const [loading, setLoading] = useState<boolean>(true);
+  const [detailLoading, setDetailLoading] = useState<boolean>(false);
 
   useEffect(() => {
     const fetchKanjiList = async () => {
@@ -40,12 +41,12 @@ function App() {
 
   const handleKanjiClick = async (kanjiChar: string) => {
     if (selectedKanji && selectedKanji.kanji === kanjiChar && !detailLoading) {
-      setSelectedKanji(null); // 토글: 다시 누르면 상세 정보 닫기
+      setSelectedKanji(null);
       return;
     }
 
     setDetailLoading(true);
-    setError(null); // 이전 상세 조회 오류 초기화
+    setError(null);
     try {
       const response = await axios.get(`http://localhost:3001/api/kanji/${encodeURIComponent(kanjiChar)}`);
       setSelectedKanji(response.data);
@@ -62,7 +63,6 @@ function App() {
     return <div className="App-container"><h1>Kanji Learning App</h1><p className="status-message">Loading Kanji data...</p></div>;
   }
 
-  // 초기 로드 실패 시 전체 에러 메시지
   if (error && kanjiList.length === 0) {
      return <div className="App-container"><h1>Kanji Learning App</h1><p className="error-message">{error}</p></div>;
   }
@@ -73,7 +73,6 @@ function App() {
         <h1>Kanji Learning App</h1>
       </header>
 
-      {/* 상세 조회 에러 메시지 (목록 로딩 성공 후) */}
       {error && kanjiList.length > 0 && <p className="error-message" style={{textAlign: 'center'}}>{error}</p>}
 
       <div className="content-layout">
@@ -84,10 +83,10 @@ function App() {
               {kanjiList.map((item) => (
                 <li
                   key={item.id}
-                  onClick={() => !detailLoading && handleKanjiClick(item.kanji)} // 상세 로딩 중 클릭 방지
+                  onClick={() => !detailLoading && handleKanjiClick(item.kanji)}
                   className={`${selectedKanji?.id === item.id ? 'selected' : ''} ${detailLoading ? 'disabled' : ''}`}
                 >
-                  {item.kanji}
+                  {item.kanji} {/* 한자 자체를 표시하는 것은 유지 */}
                 </li>
               ))}
             </ul>
@@ -101,11 +100,25 @@ function App() {
           {!detailLoading && selectedKanji ? (
             <div className="kanji-details">
               <h2>{selectedKanji.kanji}</h2>
-              <p><strong>Meanings:</strong> {selectedKanji.meanings.join(', ')}</p>
-              <p><strong>Kunyomi:</strong> {selectedKanji.kunyomi.join(', ')}</p>
+              <p><strong>Korean Meaning:</strong> {selectedKanji.korean_meaning}</p>
               <p><strong>Onyomi:</strong> {selectedKanji.onyomi.join(', ')}</p>
-              <p><strong>Strokes:</strong> {selectedKanji.stroke_count}</p>
-              {selectedKanji.jlpt_level && <p><strong>JLPT Level:</strong> {selectedKanji.jlpt_level}</p>}
+              <p><strong>Kunyomi:</strong> {selectedKanji.kunyomi.join(', ')}</p>
+              <p><strong>Strokes:</strong> {selectedKanji.strokes}</p>
+              {selectedKanji.words && selectedKanji.words.length > 0 && (
+                <div>
+                  <strong>Words:</strong>
+                  {/* MVP에서는 간단히 JSON 문자열로 표시하거나, 개수만 표시 */}
+                  <pre>{JSON.stringify(selectedKanji.words, null, 2)}</pre>
+                  {/* 또는 <p>Count: {selectedKanji.words.length}</p> */}
+                </div>
+              )}
+              {selectedKanji.example_sentences && selectedKanji.example_sentences.length > 0 && (
+                <div>
+                  <strong>Example Sentences:</strong>
+                  <pre>{JSON.stringify(selectedKanji.example_sentences, null, 2)}</pre>
+                  {/* 또는 <p>Count: {selectedKanji.example_sentences.length}</p> */}
+                </div>
+              )}
             </div>
           ) : (
             !detailLoading && <p className="placeholder-text">Select a Kanji from the list to see details.</p>
