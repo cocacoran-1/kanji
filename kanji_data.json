@@ -1330,5 +1330,613 @@
       {"sentence": "赤いりんごを食べます。", "reading": "あかい りんごを たべます。", "translation": "빨간 사과를 먹습니다."},
       {"sentence": "赤ちゃんが寝ています。", "reading": "あかちゃんが ねています。", "translation": "아기가 자고 있습니다."}
     ]
+  },
+  {
+    "kanji": "力",
+    "level": "N5",
+    "korean_meaning": "힘",
+    "onyomi": ["リョク", "リキ"],
+    "kunyomi": ["ちから"],
+    "strokes": 2,
+    "radical": "力",
+    "words": [
+      {
+        "word": "力",
+        "reading": "ちから",
+        "meaning": "힘"
+      },
+      {
+        "word": "努力",
+        "reading": "どりょく",
+        "meaning": "노력"
+      },
+      {
+        "word": "体力",
+        "reading": "たいりょく",
+        "meaning": "체력"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "力を入れて書きます。",
+        "reading": "ちからを いれて かきます。",
+        "translation": "힘을 주어 글을 씁니다."
+      },
+      {
+        "sentence": "努力すれば成功します。",
+        "reading": "どりょくすれば せいこうします。",
+        "translation": "노력하면 성공합니다."
+      }
+    ]
+  },
+  {
+    "kanji": "休",
+    "level": "N5",
+    "korean_meaning": "쉬다",
+    "onyomi": ["キュウ"],
+    "kunyomi": ["やすむ"],
+    "strokes": 6,
+    "radical": "人",
+    "words": [
+      {
+        "word": "休む",
+        "reading": "やすむ",
+        "meaning": "쉬다"
+      },
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning": "휴일"
+      },
+      {
+        "word": "休息",
+        "reading": "きゅうそく",
+        "meaning": "휴식"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "学校が休みです。",
+        "reading": "がっこうが やすみです。",
+        "translation": "학교가 쉽니다."
+      },
+      {
+        "sentence": "少し休息します。",
+        "reading": "すこし きゅうそくします。",
+        "translation": "조금 휴식합니다."
+      }
+    ]
+  },
+  {
+    "kanji": "何",
+    "level": "N5",
+    "korean_meaning": "무엇",
+    "onyomi": ["カ"],
+    "kunyomi": ["なに", "なん"],
+    "strokes": 7,
+    "radical": "人",
+    "words": [
+      {
+        "word": "何",
+        "reading": "なに",
+        "meaning": "무엇"
+      },
+      {
+        "word": "何か",
+        "reading": "なにか",
+        "meaning": "뭔가"
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "meaning": "몇 시"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "何を食べますか。",
+        "reading": "なにを たべますか。",
+        "translation": "뭐를 먹을 건가요?"
+      },
+      {
+        "sentence": "今何時ですか。",
+        "reading": "いま なんじですか。",
+        "translation": "지금 몇 시입니까?"
+      }
+    ]
+  },
+  {
+    "kanji": "用",
+    "level": "N5",
+    "korean_meaning": "사용하다",
+    "onyomi": ["ヨウ"],
+    "kunyomi": ["もちいる"],
+    "strokes": 5,
+    "radical": "用",
+    "words": [
+      {
+        "word": "用いる",
+        "reading": "もちいる",
+        "meaning": "사용하다"
+      },
+      {
+        "word": "使用",
+        "reading": "しよう",
+        "meaning": "사용"
+      },
+      {
+        "word": "用意",
+        "reading": "ようい",
+        "meaning": "준비"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "パソコンを使用します。",
+        "reading": "パソコンを しようします。",
+        "translation": "컴퓨터를 사용합니다."
+      },
+      {
+        "sentence": "旅行の用意をします。",
+        "reading": "りょこうの よういを します。",
+        "translation": "여행 준비를 합니다."
+      }
+    ]
+  },
+  {
+    "kanji": "門",
+    "level": "N5",
+    "korean_meaning": "문",
+    "onyomi": ["モン"],
+    "kunyomi": ["かど"],
+    "strokes": 8,
+    "radical": "門",
+    "words": [
+      {
+        "word": "門",
+        "reading": "もん",
+        "meaning": "문"
+      },
+      {
+        "word": "正門",
+        "reading": "せいもん",
+        "meaning": "정문"
+      },
+      {
+        "word": "門口",
+        "reading": "もんぐち",
+        "meaning": "문 입구"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "正門から入ります。",
+        "reading": "せいもんから はいります。",
+        "translation": "정문으로 들어갑니다."
+      },
+      {
+        "sentence": "門が閉まっています。",
+        "reading": "もんが しまっています。",
+        "translation": "문이 닫혀 있습니다."
+      }
+    ]
+  },
+  {
+    "kanji": "間",
+    "level": "N5",
+    "korean_meaning": "사이",
+    "onyomi": ["カン", "ケン"],
+    "kunyomi": ["あいだ", "ま"],
+    "strokes": 12,
+    "radical": "門",
+    "words": [
+      {
+        "word": "間",
+        "reading": "あいだ",
+        "meaning": "사이"
+      },
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "시간"
+      },
+      {
+        "word": "人間",
+        "reading": "にんげん",
+        "meaning": "인간"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "本と本の間にペンがあります。",
+        "reading": "ほんと ほんの あいだに ペンがあります。",
+        "translation": "책과 책 사이에 펜이 있습니다."
+      },
+      {
+        "sentence": "時間がないです。",
+        "reading": "じかんが ないです。",
+        "translation": "시간이 없습니다."
+      }
+    ]
+  },
+  {
+    "kanji": "会",
+    "level": "N5",
+    "korean_meaning": "만나다, 모임",
+    "onyomi": ["カイ", "エ"],
+    "kunyomi": ["あう"],
+    "strokes": 6,
+    "radical": "人",
+    "words": [
+      {
+        "word": "会う",
+        "reading": "あう",
+        "meaning": "만나다"
+      },
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "회사"
+      },
+      {
+        "word": "会議",
+        "reading": "かいぎ",
+        "meaning": "회의"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "友達に会います。",
+        "reading": "ともだちに あいます。",
+        "translation": "친구를 만납니다."
+      },
+      {
+        "sentence": "会社で会議があります。",
+        "reading": "かいしゃで かいぎが あります。",
+        "translation": "회사에서 회의가 있습니다."
+      }
+    ]
+  },
+  {
+    "kanji": "社",
+    "level": "N5",
+    "korean_meaning": "회사",
+    "onyomi": ["シャ"],
+    "kunyomi": [],
+    "strokes": 7,
+    "radical": "示",
+    "words": [
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "회사"
+      },
+      {
+        "word": "社会",
+        "reading": "しゃかい",
+        "meaning": "사회"
+      },
+      {
+        "word": "社長",
+        "reading": "しゃちょう",
+        "meaning": "사장"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "会社員です。",
+        "reading": "かいしゃいんです。",
+        "translation": "회사원입니다."
+      },
+      {
+        "sentence": "社長に相談します。",
+        "reading": "しゃちょうに そうだんします。",
+        "translation": "사장님께 상담합니다."
+      }
+    ]
+  },
+  {
+    "kanji": "店",
+    "level": "N5",
+    "korean_meaning": "가게",
+    "onyomi": ["テン"],
+    "kunyomi": ["みせ"],
+    "strokes": 8,
+    "radical": "广",
+    "words": [
+      {
+        "word": "店",
+        "reading": "みせ",
+        "meaning": "가게"
+      },
+      {
+        "word": "本屋",
+        "reading": "ほんや",
+        "meaning": "서점"
+      },
+      {
+        "word": "店員",
+        "reading": "てんいん",
+        "meaning": "점원"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "店で買い物します。",
+        "reading": "みせで かいものします。",
+        "translation": "가게에서 쇼핑합니다."
+      },
+      {
+        "sentence": "本屋で本を買います。",
+        "reading": "ほんやで ほんを かいます。",
+        "translation": "서점에서 책을 삽니다."
+      }
+    ]
+  },
+  {
+    "kanji": "駅",
+    "level": "N5",
+    "korean_meaning": "역",
+    "onyomi": ["エキ"],
+    "kunyomi": [],
+    "strokes": 14,
+    "radical": "馬",
+    "words": [
+      {
+        "word": "駅",
+        "reading": "えき",
+        "meaning": "역"
+      },
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "meaning": "역 앞"
+      },
+      {
+        "word": "駅員",
+        "reading": "えきいん",
+        "meaning": "역무원"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "駅で友達を待ちます。",
+        "reading": "えきで ともだちを まちます。",
+        "translation": "역에서 친구를 기다립니다."
+      },
+      {
+        "sentence": "駅前にカフェがあります。",
+        "reading": "えきまえに カフェが あります。",
+        "translation": "역 앞에 카페가 있습니다."
+      }
+    ]
+  },
+  {
+    "kanji": "分",
+    "level": "N5",
+    "korean_meaning": "분, 이해하다",
+    "onyomi": ["ブン", "フン", "ブ"],
+    "kunyomi": ["わかる", "わける"],
+    "strokes": 4,
+    "radical": "刀",
+    "words": [
+      {
+        "word": "分かる",
+        "reading": "わかる",
+        "meaning": "이해하다"
+      },
+      {
+        "word": "分",
+        "reading": "ふん",
+        "meaning": "분 (시간)"
+      },
+      {
+        "word": "部分",
+        "reading": "ぶぶん",
+        "meaning": "부분"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "日本語が分かります。",
+        "reading": "にほんごが わかります。",
+        "translation": "일본어를 이해합니다."
+      },
+      {
+        "sentence": "五分で着きます。",
+        "reading": "ごふんで つきます。",
+        "translation": "5분 안에 도착합니다."
+      }
+    ]
+  },
+  {
+    "kanji": "秒",
+    "level": "N5",
+    "korean_meaning": "초",
+    "onyomi": ["ビョウ"],
+    "kunyomi": [],
+    "strokes": 9,
+    "radical": "禾",
+    "words": [
+      {
+        "word": "秒",
+        "reading": "びょう",
+        "meaning": "초"
+      },
+      {
+        "word": "秒針",
+        "reading": "びょうしん",
+        "meaning": "초침"
+      },
+      {
+        "word": "数秒",
+        "reading": "すうびょう",
+        "meaning": "몇 초"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "十秒待ってください。",
+        "reading": "じゅうびょう まってください。",
+        "translation": "10초 기다려주세요."
+      },
+      {
+        "sentence": "数秒で終わります。",
+        "reading": "すうびょうで おわります。",
+        "translation": "몇 초 만에 끝납니다."
+      }
+    ]
+  },
+  {
+    "kanji": "年",
+    "level": "N5",
+    "korean_meaning": "해, 년",
+    "onyomi": ["ネン"],
+    "kunyomi": ["とし"],
+    "strokes": 6,
+    "radical": "干",
+    "words": [
+      {
+        "word": "年",
+        "reading": "とし",
+        "meaning": "년"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "내년"
+      },
+      {
+        "word": "毎年",
+        "reading": "まいとし",
+        "meaning": "매년"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "来年は大学に行きます。",
+        "reading": "らいねんは だいがくに いきます。",
+        "translation": "내년에 대학에 갑니다."
+      },
+      {
+        "sentence": "毎年旅行します。",
+        "reading": "まいとし りょこうします。",
+        "translation": "매년 여행합니다."
+      }
+    ]
+  },
+  {
+    "kanji": "半",
+    "level": "N5",
+    "korean_meaning": "반",
+    "onyomi": ["ハン"],
+    "kunyomi": ["なかば"],
+    "strokes": 5,
+    "radical": "十",
+    "words": [
+      {
+        "word": "半",
+        "reading": "はん",
+        "meaning": "반"
+      },
+      {
+        "word": "半分",
+        "reading": "はんぶん",
+        "meaning": "절반"
+      },
+      {
+        "word": "後半",
+        "reading": "こうはん",
+        "meaning": "후반"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "りんごを半分にします。",
+        "reading": "りんごを はんぶんに します。",
+        "translation": "사과를 반으로 나눕니다."
+      },
+      {
+        "sentence": "試合の後半が始まります。",
+        "reading": "しあいの こうはんが はじまります。",
+        "translation": "경기의 후반이 시작됩니다."
+      }
+    ]
+  },
+  {
+    "kanji": "本",
+    "level": "N5",
+    "korean_meaning": "책, 본",
+    "onyomi": ["ホン"],
+    "kunyomi": [],
+    "strokes": 5,
+    "radical": "木",
+    "words": [
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "책"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "일본"
+      },
+      {
+        "word": "本屋",
+        "reading": "ほんや",
+        "meaning": "서점"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "本を読みます。",
+        "reading": "ほんを よみます。",
+        "translation": "책을 읽습니다."
+      },
+      {
+        "sentence": "本屋で漫画を買います。",
+        "reading": "ほんやで まんがを かいます。",
+        "translation": "서점에서 만화를 삽니다."
+      }
+    ]
+  },
+  {
+    "kanji": "字",
+    "level": "N5",
+    "korean_meaning": "글자",
+    "onyomi": ["ジ"],
+    "kunyomi": [],
+    "strokes": 6,
+    "radical": "子",
+    "words": [
+      {
+        "word": "字",
+        "reading": "じ",
+        "meaning": "글자"
+      },
+      {
+        "word": "漢字",
+        "reading": "かんじ",
+        "meaning": "한자"
+      },
+      {
+        "word": "文字",
+        "reading": "もじ",
+        "meaning": "문자"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "漢字を勉強します。",
+        "reading": "かんじを べんきょうします。",
+        "translation": "한자를 공부합니다."
+      },
+      {
+        "sentence": "この字は何ですか。",
+        "reading": "このじは なんですか。",
+        "translation": "이 글자는 무엇입니까?"
+      }
+    ]
   }
 ]
