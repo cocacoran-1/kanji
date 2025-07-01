@@ -2,7 +2,8 @@
   {
     "kanji": "日",
     "level": "N5",
-    "korean_meaning": "날 일",
+    "korean_meaning": "날",
+    "korean_pronunciation": "일",
     "onyomi": ["ニチ", "ジツ"],
     "kunyomi": ["ひ", "び", "か"],
     "strokes": 4,
@@ -20,7 +21,8 @@
   {
     "kanji": "一",
     "level": "N5",
-    "korean_meaning": "한 일",
+    "korean_meaning": "하나",
+    "korean_pronunciation": "일",
     "onyomi": ["イチ", "イツ"],
     "kunyomi": ["ひと", "ひとつ"],
     "strokes": 1,
@@ -39,6 +41,7 @@
     "kanji": "二",
     "level": "N5",
     "korean_meaning": "둘",
+    "korean_pronunciation": "이",
     "onyomi": ["ニ"],
     "kunyomi": ["ふた", "ふたつ"],
     "strokes": 2,
@@ -57,6 +60,7 @@
     "kanji": "三",
     "level": "N5",
     "korean_meaning": "셋",
+    "korean_pronunciation": "삼",
     "onyomi": ["サン"],
     "kunyomi": ["み", "みつ", "みっつ"],
     "strokes": 3,
@@ -75,6 +79,7 @@
     "kanji": "四",
     "level": "N5",
     "korean_meaning": "넷",
+    "korean_pronunciation": "사",
     "onyomi": ["シ"],
     "kunyomi": ["よ", "よつ", "よっつ"],
     "strokes": 5,
@@ -93,6 +98,7 @@
     "kanji": "五",
     "level": "N5",
     "korean_meaning": "다섯",
+    "korean_pronunciation": "오",
     "onyomi": ["ゴ"],
     "kunyomi": ["いつ", "いつつ"],
     "strokes": 4,
@@ -111,6 +117,7 @@
     "kanji": "六",
     "level": "N5",
     "korean_meaning": "여섯",
+    "korean_pronunciation": "육",
     "onyomi": ["ロク"],
     "kunyomi": ["む", "むつ", "むっつ"],
     "strokes": 4,
@@ -129,6 +136,7 @@
     "kanji": "七",
     "level": "N5",
     "korean_meaning": "일곱",
+    "korean_pronunciation": "칠",
     "onyomi": ["シチ"],
     "kunyomi": ["なな", "ななつ"],
     "strokes": 2,
@@ -147,6 +155,7 @@
     "kanji": "八",
     "level": "N5",
     "korean_meaning": "여덟",
+    "korean_pronunciation": "팔",
     "onyomi": ["ハチ"],
     "kunyomi": ["や", "やつ", "やっつ"],
     "strokes": 2,
@@ -165,6 +174,7 @@
     "kanji": "九",
     "level": "N5",
     "korean_meaning": "아홉",
+    "korean_pronunciation": "구",
     "onyomi": ["キュウ", "ク"],
     "kunyomi": ["ここの", "ここのつ"],
     "strokes": 2,
@@ -183,6 +193,7 @@
     "kanji": "十",
     "level": "N5",
     "korean_meaning": "열",
+    "korean_pronunciation": "십",
     "onyomi": ["ジュウ", "ジッ"],
     "kunyomi": ["とお", "とう"],
     "strokes": 2,
@@ -201,6 +212,7 @@
     "kanji": "百",
     "level": "N5",
     "korean_meaning": "백",
+    "korean_pronunciation": "백",
     "onyomi": ["ヒャク"],
     "kunyomi": [],
     "strokes": 6,
@@ -219,6 +231,7 @@
     "kanji": "千",
     "level": "N5",
     "korean_meaning": "천",
+    "korean_pronunciation": "천",
     "onyomi": ["セン"],
     "kunyomi": [],
     "strokes": 3,
@@ -237,6 +250,7 @@
     "kanji": "万",
     "level": "N5",
     "korean_meaning": "만",
+    "korean_pronunciation": "만",
     "onyomi": ["マン", "バン"],
     "kunyomi": [],
     "strokes": 3,
@@ -254,7 +268,8 @@
   {
     "kanji": "円",
     "level": "N5",
-    "korean_meaning": "엔, 원",
+    "korean_meaning": "원, 엔, 둥글다",
+    "korean_pronunciation": "원",
     "onyomi": ["エン"],
     "kunyomi": ["まる", "まるい"],
     "strokes": 4,
@@ -272,7 +287,8 @@
   {
     "kanji": "月",
     "level": "N5",
-    "korean_meaning": "달, 월",
+    "korean_meaning": "달",
+    "korean_pronunciation": "월",
     "onyomi": ["ゲツ", "ガツ"],
     "kunyomi": ["つき"],
     "strokes": 4,
@@ -290,7 +306,8 @@
   {
     "kanji": "火",
     "level": "N5",
-    "korean_meaning": "불, 화요일",
+    "korean_meaning": "불",
+    "korean_pronunciation": "화",
     "onyomi": ["カ"],
     "kunyomi": ["ひ"],
     "strokes": 4,
@@ -308,7 +325,8 @@
   {
     "kanji": "水",
     "level": "N5",
-    "korean_meaning": "물, 수요일",
+    "korean_meaning": "물",
+    "korean_pronunciation": "수",
     "onyomi": ["スイ"],
     "kunyomi": ["みず"],
     "strokes": 4,
@@ -326,7 +344,8 @@
   {
     "kanji": "木",
     "level": "N5",
-    "korean_meaning": "나무, 목요일",
+    "korean_meaning": "나무",
+    "korean_pronunciation": "목",
     "onyomi": ["モク"],
     "kunyomi": ["き"],
     "strokes": 4,
@@ -344,7 +363,8 @@
   {
     "kanji": "金",
     "level": "N5",
-    "korean_meaning": "금, 돈, 금요일",
+    "korean_meaning": "금, 돈",
+    "korean_pronunciation": "금",
     "onyomi": ["キン", "コン"],
     "kunyomi": ["かね"],
     "strokes": 8,
@@ -362,7 +382,8 @@
   {
     "kanji": "土",
     "level": "N5",
-    "korean_meaning": "흙, 토요일",
+    "korean_meaning": "흙",
+    "korean_pronunciation": "토",
     "onyomi": ["ド", "ト"],
     "kunyomi": ["つち"],
     "strokes": 3,
@@ -381,6 +402,7 @@
     "kanji": "曜",
     "level": "N5",
     "korean_meaning": "요일",
+    "korean_pronunciation": "요",
     "onyomi": ["ヨウ"],
     "kunyomi": [],
     "strokes": 18,
@@ -399,6 +421,7 @@
     "kanji": "上",
     "level": "N5",
     "korean_meaning": "위, 올리다",
+    "korean_pronunciation": "상",
     "onyomi": ["ジョウ", "ショウ"],
     "kunyomi": ["うえ", "あげる", "あがる"],
     "strokes": 3,
@@ -417,6 +440,7 @@
     "kanji": "下",
     "level": "N5",
     "korean_meaning": "아래, 내리다",
+    "korean_pronunciation": "하",
     "onyomi": ["カ", "ゲ"],
     "kunyomi": ["した", "さげる", "さがる"],
     "strokes": 3,
@@ -435,6 +459,7 @@
     "kanji": "中",
     "level": "N5",
     "korean_meaning": "가운데, 안",
+    "korean_pronunciation": "중",
     "onyomi": ["チュウ"],
     "kunyomi": ["なか"],
     "strokes": 4,
@@ -453,6 +478,7 @@
     "kanji": "外",
     "level": "N5",
     "korean_meaning": "바깥",
+    "korean_pronunciation": "외",
     "onyomi": ["ガイ", "ゲ"],
     "kunyomi": ["そと", "はずす", "はずれる"],
     "strokes": 5,
@@ -471,6 +497,7 @@
     "kanji": "左",
     "level": "N5",
     "korean_meaning": "왼쪽",
+    "korean_pronunciation": "좌",
     "onyomi": ["サ"],
     "kunyomi": ["ひだり"],
     "strokes": 5,
@@ -489,6 +516,7 @@
     "kanji": "右",
     "level": "N5",
     "korean_meaning": "오른쪽",
+    "korean_pronunciation": "우",
     "onyomi": ["ウ", "ユウ"],
     "kunyomi": ["みぎ"],
     "strokes": 5,
@@ -507,6 +535,7 @@
     "kanji": "前",
     "level": "N5",
     "korean_meaning": "앞",
+    "korean_pronunciation": "전",
     "onyomi": ["ゼン"],
     "kunyomi": ["まえ"],
     "strokes": 9,
@@ -525,6 +554,7 @@
     "kanji": "後",
     "level": "N5",
     "korean_meaning": "뒤",
+    "korean_pronunciation": "후",
     "onyomi": ["ゴ", "コウ"],
     "kunyomi": ["うしろ", "あと"],
     "strokes": 9,
@@ -543,6 +573,7 @@
     "kanji": "東",
     "level": "N5",
     "korean_meaning": "동쪽",
+    "korean_pronunciation": "동",
     "onyomi": ["トウ"],
     "kunyomi": ["ひがし"],
     "strokes": 8,
@@ -561,6 +592,7 @@
     "kanji": "西",
     "level": "N5",
     "korean_meaning": "서쪽",
+    "korean_pronunciation": "서",
     "onyomi": ["セイ", "サイ"],
     "kunyomi": ["にし"],
     "strokes": 6,
@@ -579,6 +611,7 @@
     "kanji": "南",
     "level": "N5",
     "korean_meaning": "남쪽",
+    "korean_pronunciation": "남",
     "onyomi": ["ナン"],
     "kunyomi": ["みなみ"],
     "strokes": 9,
@@ -597,6 +630,7 @@
     "kanji": "北",
     "level": "N5",
     "korean_meaning": "북쪽",
+    "korean_pronunciation": "북",
     "onyomi": ["ホク"],
     "kunyomi": ["きた"],
     "strokes": 5,
@@ -615,6 +649,7 @@
     "kanji": "口",
     "level": "N5",
     "korean_meaning": "입",
+    "korean_pronunciation": "구",
     "onyomi": ["コウ", "ク"],
     "kunyomi": ["くち"],
     "strokes": 3,
@@ -633,6 +668,7 @@
     "kanji": "目",
     "level": "N5",
     "korean_meaning": "눈",
+    "korean_pronunciation": "목",
     "onyomi": ["モク", "ボク"],
     "kunyomi": ["め"],
     "strokes": 5,
@@ -651,6 +687,7 @@
     "kanji": "耳",
     "level": "N5",
     "korean_meaning": "귀",
+    "korean_pronunciation": "이",
     "onyomi": ["ジ"],
     "kunyomi": ["みみ"],
     "strokes": 6,
@@ -669,6 +706,7 @@
     "kanji": "手",
     "level": "N5",
     "korean_meaning": "손",
+    "korean_pronunciation": "수",
     "onyomi": ["シュ"],
     "kunyomi": ["て"],
     "strokes": 4,
@@ -686,7 +724,8 @@
   {
     "kanji": "足",
     "level": "N5",
-    "korean_meaning": "발",
+    "korean_meaning": "발, 충분하다",
+    "korean_pronunciation": "족",
     "onyomi": ["ソク"],
     "kunyomi": ["あし", "たりる"],
     "strokes": 7,
@@ -705,6 +744,7 @@
     "kanji": "人",
     "level": "N5",
     "korean_meaning": "사람",
+    "korean_pronunciation": "인",
     "onyomi": ["ジン", "ニン"],
     "kunyomi": ["ひと"],
     "strokes": 2,
@@ -723,6 +763,7 @@
     "kanji": "子",
     "level": "N5",
     "korean_meaning": "아이",
+    "korean_pronunciation": "자",
     "onyomi": ["シ", "ス"],
     "kunyomi": ["こ"],
     "strokes": 3,
@@ -741,6 +782,7 @@
     "kanji": "女",
     "level": "N5",
     "korean_meaning": "여자",
+    "korean_pronunciation": "여",
     "onyomi": ["ジョ", "ニョ"],
     "kunyomi": ["おんな"],
     "strokes": 3,
@@ -759,6 +801,7 @@
     "kanji": "男",
     "level": "N5",
     "korean_meaning": "남자",
+    "korean_pronunciation": "남",
     "onyomi": ["ダン", "ナン"],
     "kunyomi": ["おとこ"],
     "strokes": 7,
@@ -777,6 +820,7 @@
     "kanji": "父",
     "level": "N5",
     "korean_meaning": "아버지",
+    "korean_pronunciation": "부",
     "onyomi": ["フ"],
     "kunyomi": ["ちち"],
     "strokes": 4,
@@ -795,6 +839,7 @@
     "kanji": "母",
     "level": "N5",
     "korean_meaning": "어머니",
+    "korean_pronunciation": "모",
     "onyomi": ["ボ"],
     "kunyomi": ["はは"],
     "strokes": 5,
@@ -813,6 +858,7 @@
     "kanji": "友",
     "level": "N5",
     "korean_meaning": "친구",
+    "korean_pronunciation": "우",
     "onyomi": ["ユウ"],
     "kunyomi": ["とも"],
     "strokes": 4,
@@ -831,6 +877,7 @@
     "kanji": "名",
     "level": "N5",
     "korean_meaning": "이름",
+    "korean_pronunciation": "명",
     "onyomi": ["メイ", "ミョウ"],
     "kunyomi": ["な"],
     "strokes": 6,
@@ -849,6 +896,7 @@
     "kanji": "学",
     "level": "N5",
     "korean_meaning": "배우다, 학문",
+    "korean_pronunciation": "학",
     "onyomi": ["ガク"],
     "kunyomi": ["まなぶ"],
     "strokes": 8,
@@ -867,6 +915,7 @@
     "kanji": "校",
     "level": "N5",
     "korean_meaning": "학교",
+    "korean_pronunciation": "교",
     "onyomi": ["コウ"],
     "kunyomi": [],
     "strokes": 10,
@@ -885,6 +934,7 @@
     "kanji": "生",
     "level": "N5",
     "korean_meaning": "삶, 태어나다",
+    "korean_pronunciation": "생",
     "onyomi": ["セイ", "ショウ"],
     "kunyomi": ["いきる", "うまれる", "なま"],
     "strokes": 5,
@@ -903,6 +953,7 @@
     "kanji": "先",
     "level": "N5",
     "korean_meaning": "앞, 먼저",
+    "korean_pronunciation": "선",
     "onyomi": ["セン"],
     "kunyomi": ["さき"],
     "strokes": 6,
@@ -921,6 +972,7 @@
     "kanji": "入",
     "level": "N5",
     "korean_meaning": "들어가다",
+    "korean_pronunciation": "입",
     "onyomi": ["ニュウ"],
     "kunyomi": ["はいる", "いれる"],
     "strokes": 2,
@@ -939,6 +991,7 @@
     "kanji": "出",
     "level": "N5",
     "korean_meaning": "나오다",
+    "korean_pronunciation": "출",
     "onyomi": ["シュツ"],
     "kunyomi": ["でる", "だす"],
     "strokes": 5,
@@ -957,6 +1010,7 @@
     "kanji": "見",
     "level": "N5",
     "korean_meaning": "보다",
+    "korean_pronunciation": "견",
     "onyomi": ["ケン"],
     "kunyomi": ["みる"],
     "strokes": 7,
@@ -975,6 +1029,7 @@
     "kanji": "聞",
     "level": "N5",
     "korean_meaning": "듣다",
+    "korean_pronunciation": "문",
     "onyomi": ["ブン", "モン"],
     "kunyomi": ["きく"],
     "strokes": 14,
@@ -993,6 +1048,7 @@
     "kanji": "書",
     "level": "N5",
     "korean_meaning": "쓰다, 책",
+    "korean_pronunciation": "서",
     "onyomi": ["ショ"],
     "kunyomi": ["かく"],
     "strokes": 10,
@@ -1011,6 +1067,7 @@
     "kanji": "読",
     "level": "N5",
     "korean_meaning": "읽다",
+    "korean_pronunciation": "독",
     "onyomi": ["ドク"],
     "kunyomi": ["よむ"],
     "strokes": 14,
@@ -1029,6 +1086,7 @@
     "kanji": "食",
     "level": "N5",
     "korean_meaning": "먹다",
+    "korean_pronunciation": "식",
     "onyomi": ["ショク", "ジキ"],
     "kunyomi": ["たべる", "くう"],
     "strokes": 9,
@@ -1047,6 +1105,7 @@
     "kanji": "飲",
     "level": "N5",
     "korean_meaning": "마시다",
+    "korean_pronunciation": "음",
     "onyomi": ["イン"],
     "kunyomi": ["のむ"],
     "strokes": 12,
@@ -1065,6 +1124,7 @@
     "kanji": "行",
     "level": "N5",
     "korean_meaning": "가다",
+    "korean_pronunciation": "행",
     "onyomi": ["コウ", "ギョウ"],
     "kunyomi": ["いく", "ゆく", "おこなう"],
     "strokes": 6,
@@ -1083,6 +1143,7 @@
     "kanji": "来",
     "level": "N5",
     "korean_meaning": "오다",
+    "korean_pronunciation": "래",
     "onyomi": ["ライ"],
     "kunyomi": ["くる"],
     "strokes": 7,
@@ -1101,6 +1162,7 @@
     "kanji": "帰",
     "level": "N5",
     "korean_meaning": "돌아오다",
+    "korean_pronunciation": "귀",
     "onyomi": ["キ"],
     "kunyomi": ["かえる"],
     "strokes": 10,
@@ -1119,6 +1181,7 @@
     "kanji": "買",
     "level": "N5",
     "korean_meaning": "사다",
+    "korean_pronunciation": "매",
     "onyomi": ["バイ"],
     "kunyomi": ["かう"],
     "strokes": 12,
@@ -1137,6 +1200,7 @@
     "kanji": "売",
     "level": "N5",
     "korean_meaning": "팔다",
+    "korean_pronunciation": "매",
     "onyomi": ["バイ"],
     "kunyomi": ["うる"],
     "strokes": 7,
@@ -1152,791 +1216,687 @@
     ]
   },
   {
-    "kanji": "高",
+    "kanji": "話",
     "level": "N5",
-    "korean_meaning": "높다, 비싸다",
-    "onyomi": ["コウ"],
-    "kunyomi": ["たかい"],
-    "strokes": 10,
-    "radical": "高",
+    "korean_meaning": "말하다, 이야기",
+    "korean_pronunciation": "화",
+    "onyomi": ["ワ"],
+    "kunyomi": ["はなす", "はなし"],
+    "strokes": 13,
+    "radical": "言",
     "words": [
-      {"word": "高い", "reading": "たかい", "meaning": "높다, 비싸다"},
-      {"word": "高校", "reading": "こうこう", "meaning": "고등학교"},
-      {"word": "高さ", "reading": "たかさ", "meaning": "높이"}
+      {"word": "話す", "reading": "はなす", "meaning": "말하다"},
+      {"word": "話", "reading": "はなし", "meaning": "이야기"},
+      {"word": "電話", "reading": "でんわ", "meaning": "전화"}
     ],
     "example_sentences": [
-      {"sentence": "この山は高いです。", "reading": "このやまは たかいです。", "translation": "이 산은 높습니다."},
-      {"sentence": "このバッグは高すぎます。", "reading": "このバッグは たかすぎます。", "translation": "이 가방은 너무 비쌉니다."}
-    ]
-  },
-  {
-    "kanji": "安",
-    "level": "N5",
-    "korean_meaning": "싸다",
-    "onyomi": ["アン"],
-    "kunyomi": ["やすい"],
-    "strokes": 6,
-    "radical": "宀",
-    "words": [
-      {"word": "安い", "reading": "やすい", "meaning": "싸다"},
-      {"word": "安全", "reading": "あんぜん", "meaning": "안전"},
-      {"word": "安心", "reading": "あんしん", "meaning": "안심"}
-    ],
-    "example_sentences": [
-      {"sentence": "この服は安いです。", "reading": "このふくは やすいです。", "translation": "이 옷은 쌉니다."},
-      {"sentence": "安全な場所にいます。", "reading": "あんぜんな ばしょに います。", "translation": "안전한 장소에 있습니다."}
-    ]
-  },
-  {
-    "kanji": "大",
-    "level": "N5",
-    "korean_meaning": "크다",
-    "onyomi": ["ダイ", "タイ"],
-    "kunyomi": ["おおきい"],
-    "strokes": 3,
-    "radical": "大",
-    "words": [
-      {"word": "大きい", "reading": "おおきい", "meaning": "크다"},
-      {"word": "大学", "reading": "だいがく", "meaning": "대학교"},
-      {"word": "大人", "reading": "おとな", "meaning": "어른"}
-    ],
-    "example_sentences": [
-      {"sentence": "大きい家に住みたいです。", "reading": "おおきい いえに すみたいです。", "translation": "큰 집에 살고 싶습니다."},
-      {"sentence": "大学で勉強します。", "reading": "だいがくで べんきょうします。", "translation": "대학교에서 공부합니다."}
-    ]
-  },
-  {
-    "kanji": "小",
-    "level": "N5",
-    "korean_meaning": "작다",
-    "onyomi": ["ショウ"],
-    "kunyomi": ["ちいさい"],
-    "strokes": 3,
-    "radical": "小",
-    "words": [
-      {"word": "小さい", "reading": "ちいさい", "meaning": "작다"},
-      {"word": "小学校", "reading": "しょうがっこう", "meaning": "초등학교"},
-      {"word": "小説", "reading": "しょうせつ", "meaning": "소설"}
-    ],
-    "example_sentences": [
-      {"sentence": "小さい犬が好きです。", "reading": "ちいさい いぬが すきです。", "translation": "작은 개를 좋아합니다."},
-      {"sentence": "小説を読みます。", "reading": "しょうせつを よみます。", "translation": "소설을 읽습니다."}
-    ]
-  },
-  {
-    "kanji": "長",
-    "level": "N5",
-    "korean_meaning": "길다",
-    "onyomi": ["チョウ"],
-    "kunyomi": ["ながい"],
-    "strokes": 8,
-    "radical": "長",
-    "words": [
-      {"word": "長い", "reading": "ながい", "meaning": "길다"},
-      {"word": "校長", "reading": "こうちょう", "meaning": "교장"},
-      {"word": "部長", "reading": "ぶちょう", "meaning": "부장"}
-    ],
-    "example_sentences": [
-      {"sentence": "この道は長いです。", "reading": "このみちは ながいです。", "translation": "이 길은 깁니다."},
-      {"sentence": "校長先生に会いました。", "reading": "こうちょうせんせいに あいました。", "translation": "교장 선생님을 만났습니다."}
-    ]
-  },
-  {
-    "kanji": "短",
-    "level": "N5",
-    "korean_meaning": "짧다",
-    "onyomi": ["タン"],
-    "kunyomi": ["みじかい"],
-    "strokes": 12,
-    "radical": "矢",
-    "words": [
-      {"word": "短い", "reading": "みじかい", "meaning": "짧다"},
-      {"word": "短時間", "reading": "たんじかん", "meaning": "짧은 시간"},
-      {"word": "短編", "reading": "たんぺん", "meaning": "단편"}
-    ],
-    "example_sentences": [
-      {"sentence": "このスカートは短いです。", "reading": "このスカートは みじかいです。", "translation": "이 치마는 짧습니다."},
-      {"sentence": "短時間で終わりました。", "reading": "たんじかんで おわりました。", "translation": "짧은 시간에 끝났습니다."}
-    ]
-  },
-  {
-    "kanji": "白",
-    "level": "N5",
-    "korean_meaning": "하얗다",
-    "onyomi": ["ハク", "ビャク"],
-    "kunyomi": ["しろ", "しろい"],
-    "strokes": 5,
-    "radical": "白",
-    "words": [
-      {"word": "白い", "reading": "しろい", "meaning": "하얗다"},
-      {"word": "白紙", "reading": "はくし", "meaning": "백지"},
-      {"word": "白米", "reading": "はくまい", "meaning": "흰쌀"}
-    ],
-    "example_sentences": [
-      {"sentence": "白い花が咲きます。", "reading": "しろい はなが さきます。", "translation": "하얀 꽃이 핍니다."},
-      {"sentence": "白紙に字を書きます。", "reading": "はくしに じを かきます。", "translation": "백지에 글자를 씁니다."}
-    ]
-  },
-  {
-    "kanji": "黒",
-    "level": "N5",
-    "korean_meaning": "검다",
-    "onyomi": ["コク"],
-    "kunyomi": ["くろ", "くろい"],
-    "strokes": 11,
-    "radical": "黒",
-    "words": [
-      {"word": "黒い", "reading": "くろい", "meaning": "검다"},
-      {"word": "黒板", "reading": "こくばん", "meaning": "칠판"},
-      {"word": "黒色", "reading": "こくしょく", "meaning": "검은색"}
-    ],
-    "example_sentences": [
-      {"sentence": "黒い靴を履きます。", "reading": "くろい くつを はきます。", "translation": "검은 신발을 신습니다."},
-      {"sentence": "黒板に書きます。", "reading": "こくばんに かきます。", "translation": "칠판에 씁니다."}
-    ]
-  },
-  {
-    "kanji": "青",
-    "level": "N5",
-    "korean_meaning": "파랗다",
-    "onyomi": ["セイ", "ショウ"],
-    "kunyomi": ["あお", "あおい"],
-    "strokes": 8,
-    "radical": "青",
-    "words": [
-      {"word": "青い", "reading": "あおい", "meaning": "파랗다"},
-      {"word": "青年", "reading": "せいねん", "meaning": "청년"},
-      {"word": "青空", "reading": "あおぞら", "meaning": "푸른 하늘"}
-    ],
-    "example_sentences": [
-      {"sentence": "青い空がきれいです。", "reading": "あおい そらが きれいです。", "translation": "푸른 하늘이 예쁩니다."},
-      {"sentence": "青年が公園で話します。", "reading": "せいねんが こうえんで はなします。", "translation": "청년이 공원에서 이야기합니다."}
-    ]
-  },
-  {
-    "kanji": "赤",
-    "level": "N5",
-    "korean_meaning": "빨갛다",
-    "onyomi": ["セキ", "シャク"],
-    "kunyomi": ["あか", "あかい"],
-    "strokes": 7,
-    "radical": "赤",
-    "words": [
-      {"word": "赤い", "reading": "あかい", "meaning": "빨갛다"},
-      {"word": "赤ちゃん", "reading": "あかちゃん", "meaning": "아기"},
-      {"word": "赤信号", "reading": "あかしんごう", "meaning": "빨간 신호"}
-    ],
-    "example_sentences": [
-      {"sentence": "赤いりんごを食べます。", "reading": "あかい りんごを たべます。", "translation": "빨간 사과를 먹습니다."},
-      {"sentence": "赤ちゃんが寝ています。", "reading": "あかちゃんが ねています。", "translation": "아기가 자고 있습니다."}
-    ]
-  },
-  {
-    "kanji": "力",
-    "level": "N5",
-    "korean_meaning": "힘",
-    "onyomi": ["リョク", "リキ"],
-    "kunyomi": ["ちから"],
-    "strokes": 2,
-    "radical": "力",
-    "words": [
-      {
-        "word": "力",
-        "reading": "ちから",
-        "meaning": "힘"
-      },
-      {
-        "word": "努力",
-        "reading": "どりょく",
-        "meaning": "노력"
-      },
-      {
-        "word": "体力",
-        "reading": "たいりょく",
-        "meaning": "체력"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "力を入れて書きます。",
-        "reading": "ちからを いれて かきます。",
-        "translation": "힘을 주어 글을 씁니다."
-      },
-      {
-        "sentence": "努力すれば成功します。",
-        "reading": "どりょくすれば せいこうします。",
-        "translation": "노력하면 성공합니다."
-      }
-    ]
-  },
-  {
-    "kanji": "休",
-    "level": "N5",
-    "korean_meaning": "쉬다",
-    "onyomi": ["キュウ"],
-    "kunyomi": ["やすむ"],
-    "strokes": 6,
-    "radical": "人",
-    "words": [
-      {
-        "word": "休む",
-        "reading": "やすむ",
-        "meaning": "쉬다"
-      },
-      {
-        "word": "休日",
-        "reading": "きゅうじつ",
-        "meaning": "휴일"
-      },
-      {
-        "word": "休息",
-        "reading": "きゅうそく",
-        "meaning": "휴식"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "学校が休みです。",
-        "reading": "がっこうが やすみです。",
-        "translation": "학교가 쉽니다."
-      },
-      {
-        "sentence": "少し休息します。",
-        "reading": "すこし きゅうそくします。",
-        "translation": "조금 휴식합니다."
-      }
-    ]
-  },
-  {
-    "kanji": "何",
-    "level": "N5",
-    "korean_meaning": "무엇",
-    "onyomi": ["カ"],
-    "kunyomi": ["なに", "なん"],
-    "strokes": 7,
-    "radical": "人",
-    "words": [
-      {
-        "word": "何",
-        "reading": "なに",
-        "meaning": "무엇"
-      },
-      {
-        "word": "何か",
-        "reading": "なにか",
-        "meaning": "뭔가"
-      },
-      {
-        "word": "何時",
-        "reading": "なんじ",
-        "meaning": "몇 시"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "何を食べますか。",
-        "reading": "なにを たべますか。",
-        "translation": "뭐를 먹을 건가요?"
-      },
-      {
-        "sentence": "今何時ですか。",
-        "reading": "いま なんじですか。",
-        "translation": "지금 몇 시입니까?"
-      }
-    ]
-  },
-  {
-    "kanji": "用",
-    "level": "N5",
-    "korean_meaning": "사용하다",
-    "onyomi": ["ヨウ"],
-    "kunyomi": ["もちいる"],
-    "strokes": 5,
-    "radical": "用",
-    "words": [
-      {
-        "word": "用いる",
-        "reading": "もちいる",
-        "meaning": "사용하다"
-      },
-      {
-        "word": "使用",
-        "reading": "しよう",
-        "meaning": "사용"
-      },
-      {
-        "word": "用意",
-        "reading": "ようい",
-        "meaning": "준비"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "パソコンを使用します。",
-        "reading": "パソコンを しようします。",
-        "translation": "컴퓨터를 사용합니다."
-      },
-      {
-        "sentence": "旅行の用意をします。",
-        "reading": "りょこうの よういを します。",
-        "translation": "여행 준비를 합니다."
-      }
-    ]
-  },
-  {
-    "kanji": "門",
-    "level": "N5",
-    "korean_meaning": "문",
-    "onyomi": ["モン"],
-    "kunyomi": ["かど"],
-    "strokes": 8,
-    "radical": "門",
-    "words": [
-      {
-        "word": "門",
-        "reading": "もん",
-        "meaning": "문"
-      },
-      {
-        "word": "正門",
-        "reading": "せいもん",
-        "meaning": "정문"
-      },
-      {
-        "word": "門口",
-        "reading": "もんぐち",
-        "meaning": "문 입구"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "正門から入ります。",
-        "reading": "せいもんから はいります。",
-        "translation": "정문으로 들어갑니다."
-      },
-      {
-        "sentence": "門が閉まっています。",
-        "reading": "もんが しまっています。",
-        "translation": "문이 닫혀 있습니다."
-      }
-    ]
-  },
-  {
-    "kanji": "間",
-    "level": "N5",
-    "korean_meaning": "사이",
-    "onyomi": ["カン", "ケン"],
-    "kunyomi": ["あいだ", "ま"],
-    "strokes": 12,
-    "radical": "門",
-    "words": [
-      {
-        "word": "間",
-        "reading": "あいだ",
-        "meaning": "사이"
-      },
-      {
-        "word": "時間",
-        "reading": "じかん",
-        "meaning": "시간"
-      },
-      {
-        "word": "人間",
-        "reading": "にんげん",
-        "meaning": "인간"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "本と本の間にペンがあります。",
-        "reading": "ほんと ほんの あいだに ペンがあります。",
-        "translation": "책과 책 사이에 펜이 있습니다."
-      },
-      {
-        "sentence": "時間がないです。",
-        "reading": "じかんが ないです。",
-        "translation": "시간이 없습니다."
-      }
-    ]
-  },
-  {
-    "kanji": "会",
-    "level": "N5",
-    "korean_meaning": "만나다, 모임",
-    "onyomi": ["カイ", "エ"],
-    "kunyomi": ["あう"],
-    "strokes": 6,
-    "radical": "人",
-    "words": [
-      {
-        "word": "会う",
-        "reading": "あう",
-        "meaning": "만나다"
-      },
-      {
-        "word": "会社",
-        "reading": "かいしゃ",
-        "meaning": "회사"
-      },
-      {
-        "word": "会議",
-        "reading": "かいぎ",
-        "meaning": "회의"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "友達に会います。",
-        "reading": "ともだちに あいます。",
-        "translation": "친구를 만납니다."
-      },
-      {
-        "sentence": "会社で会議があります。",
-        "reading": "かいしゃで かいぎが あります。",
-        "translation": "회사에서 회의가 있습니다."
-      }
-    ]
-  },
-  {
-    "kanji": "社",
-    "level": "N5",
-    "korean_meaning": "회사",
-    "onyomi": ["シャ"],
-    "kunyomi": [],
-    "strokes": 7,
-    "radical": "示",
-    "words": [
-      {
-        "word": "会社",
-        "reading": "かいしゃ",
-        "meaning": "회사"
-      },
-      {
-        "word": "社会",
-        "reading": "しゃかい",
-        "meaning": "사회"
-      },
-      {
-        "word": "社長",
-        "reading": "しゃちょう",
-        "meaning": "사장"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "会社員です。",
-        "reading": "かいしゃいんです。",
-        "translation": "회사원입니다."
-      },
-      {
-        "sentence": "社長に相談します。",
-        "reading": "しゃちょうに そうだんします。",
-        "translation": "사장님께 상담합니다."
-      }
-    ]
-  },
-  {
-    "kanji": "店",
-    "level": "N5",
-    "korean_meaning": "가게",
-    "onyomi": ["テン"],
-    "kunyomi": ["みせ"],
-    "strokes": 8,
-    "radical": "广",
-    "words": [
-      {
-        "word": "店",
-        "reading": "みせ",
-        "meaning": "가게"
-      },
-      {
-        "word": "本屋",
-        "reading": "ほんや",
-        "meaning": "서점"
-      },
-      {
-        "word": "店員",
-        "reading": "てんいん",
-        "meaning": "점원"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "店で買い物します。",
-        "reading": "みせで かいものします。",
-        "translation": "가게에서 쇼핑합니다."
-      },
-      {
-        "sentence": "本屋で本を買います。",
-        "reading": "ほんやで ほんを かいます。",
-        "translation": "서점에서 책을 삽니다."
-      }
-    ]
-  },
-  {
-    "kanji": "駅",
-    "level": "N5",
-    "korean_meaning": "역",
-    "onyomi": ["エキ"],
-    "kunyomi": [],
-    "strokes": 14,
-    "radical": "馬",
-    "words": [
-      {
-        "word": "駅",
-        "reading": "えき",
-        "meaning": "역"
-      },
-      {
-        "word": "駅前",
-        "reading": "えきまえ",
-        "meaning": "역 앞"
-      },
-      {
-        "word": "駅員",
-        "reading": "えきいん",
-        "meaning": "역무원"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "駅で友達を待ちます。",
-        "reading": "えきで ともだちを まちます。",
-        "translation": "역에서 친구를 기다립니다."
-      },
-      {
-        "sentence": "駅前にカフェがあります。",
-        "reading": "えきまえに カフェが あります。",
-        "translation": "역 앞에 카페가 있습니다."
-      }
+      {"sentence": "友達と話します。", "reading": "ともだちと はなします。", "translation": "친구와 이야기합니다."},
+      {"sentence": "電話で話しました。", "reading": "でんわで はなしました。", "translation": "전화로 이야기했습니다."}
     ]
   },
   {
     "kanji": "分",
     "level": "N5",
-    "korean_meaning": "분, 이해하다",
-    "onyomi": ["ブン", "フン", "ブ"],
-    "kunyomi": ["わかる", "わける"],
+    "korean_meaning": "나누다, 분",
+    "korean_pronunciation": "분",
+    "onyomi": ["ブン", "フン"],
+    "kunyomi": ["わける", "わかる"],
     "strokes": 4,
     "radical": "刀",
     "words": [
-      {
-        "word": "分かる",
-        "reading": "わかる",
-        "meaning": "이해하다"
-      },
-      {
-        "word": "分",
-        "reading": "ふん",
-        "meaning": "분 (시간)"
-      },
-      {
-        "word": "部分",
-        "reading": "ぶぶん",
-        "meaning": "부분"
-      }
+      {"word": "分かる", "reading": "わかる", "meaning": "알다"},
+      {"word": "分", "reading": "ふん", "meaning": "분"},
+      {"word": "十分", "reading": "じゅっぷん", "meaning": "10분"}
     ],
     "example_sentences": [
-      {
-        "sentence": "日本語が分かります。",
-        "reading": "にほんごが わかります。",
-        "translation": "일본어를 이해합니다."
-      },
-      {
-        "sentence": "五分で着きます。",
-        "reading": "ごふんで つきます。",
-        "translation": "5분 안에 도착합니다."
-      }
+      {"sentence": "日本語が分かります。", "reading": "にほんごが わかります。", "translation": "일본어를 압니다."},
+      {"sentence": "十分待ってください。", "reading": "じゅっぷん まってください。", "translation": "10분 기다려주세요."}
     ]
   },
   {
     "kanji": "秒",
     "level": "N5",
     "korean_meaning": "초",
+    "korean_pronunciation": "초",
     "onyomi": ["ビョウ"],
     "kunyomi": [],
     "strokes": 9,
     "radical": "禾",
     "words": [
-      {
-        "word": "秒",
-        "reading": "びょう",
-        "meaning": "초"
-      },
-      {
-        "word": "秒針",
-        "reading": "びょうしん",
-        "meaning": "초침"
-      },
-      {
-        "word": "数秒",
-        "reading": "すうびょう",
-        "meaning": "몇 초"
-      }
+      {"word": "秒", "reading": "びょう", "meaning": "초"},
+      {"word": "秒速", "reading": "びょうそく", "meaning": "초속"},
+      {"word": "十秒", "reading": "じゅうびょう", "meaning": "10초"}
     ],
     "example_sentences": [
-      {
-        "sentence": "十秒待ってください。",
-        "reading": "じゅうびょう まってください。",
-        "translation": "10초 기다려주세요."
-      },
-      {
-        "sentence": "数秒で終わります。",
-        "reading": "すうびょうで おわります。",
-        "translation": "몇 초 만에 끝납니다."
-      }
+      {"sentence": "十秒で走りました。", "reading": "じゅうびょうで はしりました。", "translation": "10초 만에 달렸습니다."},
+      {"sentence": "秒速を測ります。", "reading": "びょうそくを はかります。", "translation": "초속을 측정합니다."}
+    ]
+  },
+  {
+    "kanji": "時",
+    "level": "N5",
+    "korean_meaning": "시간, 시",
+    "korean_pronunciation": "시",
+    "onyomi": ["ジ"],
+    "kunyomi": ["とき"],
+    "strokes": 10,
+    "radical": "日",
+    "words": [
+      {"word": "時", "reading": "とき", "meaning": "시간"},
+      {"word": "時間", "reading": "じかん", "meaning": "시간"},
+      {"word": "時計", "reading": "とけい", "meaning": "시계"}
+    ],
+    "example_sentences": [
+      {"sentence": "何時に寝ますか。", "reading": "なんじに ねますか。", "translation": "몇 시에 잡니까?"},
+      {"sentence": "時間がありますか。", "reading": "じかんが ありますか。", "translation": "시간이 있습니까?"}
     ]
   },
   {
     "kanji": "年",
     "level": "N5",
     "korean_meaning": "해, 년",
+    "korean_pronunciation": "년",
     "onyomi": ["ネン"],
     "kunyomi": ["とし"],
     "strokes": 6,
     "radical": "干",
     "words": [
-      {
-        "word": "年",
-        "reading": "とし",
-        "meaning": "년"
-      },
-      {
-        "word": "来年",
-        "reading": "らいねん",
-        "meaning": "내년"
-      },
-      {
-        "word": "毎年",
-        "reading": "まいとし",
-        "meaning": "매년"
-      }
+      {"word": "年", "reading": "とし", "meaning": "해"},
+      {"word": "去年", "reading": "きょねん", "meaning": "작년"},
+      {"word": "来年", "reading": "らいねん", "meaning": "내년"}
     ],
     "example_sentences": [
-      {
-        "sentence": "来年は大学に行きます。",
-        "reading": "らいねんは だいがくに いきます。",
-        "translation": "내년에 대학에 갑니다."
-      },
-      {
-        "sentence": "毎年旅行します。",
-        "reading": "まいとし りょこうします。",
-        "translation": "매년 여행합니다."
-      }
+      {"sentence": "去年は楽しかったです。", "reading": "きょねんは たのしかったです。", "translation": "작년은 즐거웠습니다."},
+      {"sentence": "来年は旅行に行きます。", "reading": "らいねんは りょこうに いきます。", "translation": "내년에 여행을 갑니다."}
     ]
   },
   {
     "kanji": "半",
     "level": "N5",
-    "korean_meaning": "반",
+    "korean_meaning": "반, 절반",
+    "korean_pronunciation": "반",
     "onyomi": ["ハン"],
     "kunyomi": ["なかば"],
     "strokes": 5,
     "radical": "十",
     "words": [
-      {
-        "word": "半",
-        "reading": "はん",
-        "meaning": "반"
-      },
-      {
-        "word": "半分",
-        "reading": "はんぶん",
-        "meaning": "절반"
-      },
-      {
-        "word": "後半",
-        "reading": "こうはん",
-        "meaning": "후반"
-      }
+      {"word": "半", "reading": "はん", "meaning": "반"},
+      {"word": "半分", "reading": "はんぶん", "meaning": "절반"},
+      {"word": "午前半", "reading": "ごぜんはん", "meaning": "오전"}
     ],
     "example_sentences": [
-      {
-        "sentence": "りんごを半分にします。",
-        "reading": "りんごを はんぶんに します。",
-        "translation": "사과를 반으로 나눕니다."
-      },
-      {
-        "sentence": "試合の後半が始まります。",
-        "reading": "しあいの こうはんが はじまります。",
-        "translation": "경기의 후반이 시작됩니다."
-      }
+      {"sentence": "りんごを半分にします。", "reading": "りんごを はんぶんに します。", "translation": "사과를 절반으로 나눕니다."},
+      {"sentence": "午前半に会議があります。", "reading": "ごぜんはんに かいぎが あります。", "translation": "오전에 회의가 있습니다."}
     ]
   },
   {
     "kanji": "本",
     "level": "N5",
     "korean_meaning": "책, 본",
+    "korean_pronunciation": "본",
     "onyomi": ["ホン"],
-    "kunyomi": [],
+    "kunyomi": ["もと"],
     "strokes": 5,
     "radical": "木",
     "words": [
-      {
-        "word": "本",
-        "reading": "ほん",
-        "meaning": "책"
-      },
-      {
-        "word": "日本",
-        "reading": "にほん",
-        "meaning": "일본"
-      },
-      {
-        "word": "本屋",
-        "reading": "ほんや",
-        "meaning": "서점"
-      }
+      {"word": "本", "reading": "ほん", "meaning": "책"},
+      {"word": "日本", "reading": "にほん", "meaning": "일본"},
+      {"word": "本屋", "reading": "ほんや", "meaning": "서점"}
     ],
     "example_sentences": [
-      {
-        "sentence": "本を読みます。",
-        "reading": "ほんを よみます。",
-        "translation": "책을 읽습니다."
-      },
-      {
-        "sentence": "本屋で漫画を買います。",
-        "reading": "ほんやで まんがを かいます。",
-        "translation": "서점에서 만화를 삽니다."
-      }
+      {"sentence": "本屋で本を買います。", "reading": "ほんやで ほんを かいます。", "translation": "서점에서 책을 삽니다."},
+      {"sentence": "日本に住んでいます。", "reading": "にほんに すんでいます。", "translation": "일본에 살고 있습니다."}
     ]
   },
   {
     "kanji": "字",
     "level": "N5",
     "korean_meaning": "글자",
+    "korean_pronunciation": "자",
     "onyomi": ["ジ"],
-    "kunyomi": [],
+    "kunyomi": ["あざ"],
     "strokes": 6,
     "radical": "子",
     "words": [
-      {
-        "word": "字",
-        "reading": "じ",
-        "meaning": "글자"
-      },
-      {
-        "word": "漢字",
-        "reading": "かんじ",
-        "meaning": "한자"
-      },
-      {
-        "word": "文字",
-        "reading": "もじ",
-        "meaning": "문자"
-      }
+      {"word": "漢字", "reading": "かんじ", "meaning": "한자"},
+      {"word": "字", "reading": "じ", "meaning": "글자"},
+      {"word": "文字", "reading": "もじ", "meaning": "문자"}
     ],
     "example_sentences": [
-      {
-        "sentence": "漢字を勉強します。",
-        "reading": "かんじを べんきょうします。",
-        "translation": "한자를 공부합니다."
-      },
-      {
-        "sentence": "この字は何ですか。",
-        "reading": "このじは なんですか。",
-        "translation": "이 글자는 무엇입니까?"
-      }
+      {"sentence": "漢字を勉強します。", "reading": "かんじを べんきょうします。", "translation": "한자를 공부합니다."},
+      {"sentence": "文字を書きます。", "reading": "もじを かきます。", "translation": "문자를 씁니다."}
+    ]
+  },
+  {
+    "kanji": "力",
+    "level": "N5",
+    "korean_meaning": "힘",
+    "korean_pronunciation": "력",
+    "onyomi": ["リョク", "リキ"],
+    "kunyomi": ["ちから"],
+    "strokes": 2,
+    "radical": "力",
+    "words": [
+      {"word": "力", "reading": "ちから", "meaning": "힘"},
+      {"word": "努力", "reading": "どりょく", "meaning": "노력"},
+      {"word": "体力", "reading": "たいりょく", "meaning": "체력"}
+    ],
+    "example_sentences": [
+      {"sentence": "力を合わせて仕事します。", "reading": "ちからを あわせて しごとします。", "translation": "힘을 합쳐 일합니다."},
+      {"sentence": "努力すれば成功します。", "reading": "どりょくすれば せいこうします。", "translation": "노력하면 성공합니다."}
+    ]
+  },
+  {
+    "kanji": "休",
+    "level": "N5",
+    "korean_meaning": "쉬다",
+    "korean_pronunciation": "휴",
+    "onyomi": ["キュウ"],
+    "kunyomi": ["やすむ"],
+    "strokes": 6,
+    "radical": "亻",
+    "words": [
+      {"word": "休む", "reading": "やすむ", "meaning": "쉬다"},
+      {"word": "休日", "reading": "きゅうじつ", "meaning": "휴일"},
+      {"word": "休息", "reading": "きゅうそく", "meaning": "휴식"}
+    ],
+    "example_sentences": [
+      {"sentence": "日曜日は休みます。", "reading": "にちようびは やすみます。", "translation": "일요일은 쉽니다."},
+      {"sentence": "少し休息が必要です。", "reading": "すこし きゅうそくが ひつようです。", "translation": "조금 휴식이 필요합니다."}
+    ]
+  },
+  {
+    "kanji": "何",
+    "level": "N5",
+    "korean_meaning": "무엇",
+    "korean_pronunciation": "하",
+    "onyomi": ["カ"],
+    "kunyomi": ["なに", "なん"],
+    "strokes": 7,
+    "radical": "亻",
+    "words": [
+      {"word": "何", "reading": "なに", "meaning": "무엇"},
+      {"word": "何か", "reading": "なにか", "meaning": "뭔가"},
+      {"word": "何時", "reading": "なんじ", "meaning": "몇 시"}
+    ],
+    "example_sentences": [
+      {"sentence": "何を食べますか。", "reading": "なにを たべますか。", "translation": "무엇을 먹습니까?"},
+      {"sentence": "何時に会いますか。", "reading": "なんじに あいますか。", "translation": "몇 시에 만납니까?"}
+    ]
+  },
+  {
+    "kanji": "用",
+    "level": "N5",
+    "korean_meaning": "사용하다",
+    "korean_pronunciation": "용",
+    "onyomi": ["ヨウ"],
+    "kunyomi": ["もちいる"],
+    "strokes": 5,
+    "radical": "用",
+    "words": [
+      {"word": "使う", "reading": "つかう", "meaning": "사용하다"},
+      {"word": "用事", "reading": "ようじ", "meaning": "볼일"},
+      {"word": "用意", "reading": "ようい", "meaning": "준비"}
+    ],
+    "example_sentences": [
+      {"sentence": "パソコンを使います。", "reading": "パソコンを つかいます。", "translation": "컴퓨터를 사용합니다."},
+      {"sentence": "用事があります。", "reading": "ようじが あります。", "translation": "볼일이 있습니다."}
+    ]
+  },
+  {
+    "kanji": "門",
+    "level": "N5",
+    "korean_meaning": "문",
+    "korean_pronunciation": "문",
+    "onyomi": ["モン"],
+    "kunyomi": ["かど"],
+    "strokes": 8,
+    "radical": "門",
+    "words": [
+      {"word": "門", "reading": "もん", "meaning": "문"},
+      {"word": "専門", "reading": "せんもん", "meaning": "전문"},
+      {"word": "校門", "reading": "こうもん", "meaning": "교문"}
+    ],
+    "example_sentences": [
+      {"sentence": "門を開けてください。", "reading": "もんを あけてください。", "translation": "문을 열어주세요."},
+      {"sentence": "専門書を読みます。", "reading": "せんもんしょを よみます。", "translation": "전문서를 읽습니다."}
+    ]
+  },
+  {
+    "kanji": "間",
+    "level": "N5",
+    "korean_meaning": "사이, 시간",
+    "korean_pronunciation": "간",
+    "onyomi": ["カン", "ケン"],
+    "kunyomi": ["あいだ", "ま"],
+    "strokes": 12,
+    "radical": "門",
+    "words": [
+      {"word": "間", "reading": "あいだ", "meaning": "사이"},
+      {"word": "時間", "reading": "じかん", "meaning": "시간"},
+      {"word": "週間", "reading": "しゅうかん", "meaning": "주간"}
+    ],
+    "example_sentences": [
+      {"sentence": "木の間に家があります。", "reading": "きの あいだに いえが あります。", "translation": "나무 사이에 집이 있습니다."},
+      {"sentence": "一週間で終わります。", "reading": "いっしゅうかんで おわります。", "translation": "일주일 만에 끝납니다."}
+    ]
+  },
+  {
+    "kanji": "会",
+    "level": "N5",
+    "korean_meaning": "만나다, 모임",
+    "korean_pronunciation": "회",
+    "onyomi": ["カイ", "エ"],
+    "kunyomi": ["あう"],
+    "strokes": 6,
+    "radical": "人",
+    "words": [
+      {"word": "会う", "reading": "あう", "meaning": "만나다"},
+      {"word": "会議", "reading": "かいぎ", "meaning": "회의"},
+      {"word": "会社", "reading": "かいしゃ", "meaning": "회사"}
+    ],
+    "example_sentences": [
+      {"sentence": "友達に会います。", "reading": "ともだちに あいます。", "translation": "친구를 만납니다."},
+      {"sentence": "会議に出席します。", "reading": "かいぎに しゅっせきします。", "translation": "회의에 참석합니다."}
+    ]
+  },
+  {
+    "kanji": "社",
+    "level": "N5",
+    "korean_meaning": "회사, 사당",
+    "korean_pronunciation": "사",
+    "onyomi": ["シャ"],
+    "kunyomi": ["やしろ"],
+    "strokes": 7,
+    "radical": "示",
+    "words": [
+      {"word": "会社", "reading": "かいしゃ", "meaning": "회사"},
+      {"word": "社会", "reading": "しゃかい", "meaning": "사회"},
+      {"word": "神社", "reading": "じんじゃ", "meaning": "신사"}
+    ],
+    "example_sentences": [
+      {"sentence": "会社に行きます。", "reading": "かいしゃに いきます。", "translation": "회사에 갑니다."},
+      {"sentence": "神社にお参りします。", "reading": "じんじゃに おまいりします。", "translation": "신사에 참배합니다."}
+    ]
+  },
+  {
+    "kanji": "店",
+    "level": "N5",
+    "korean_meaning": "가게",
+    "korean_pronunciation": "점",
+    "onyomi": ["テン"],
+    "kunyomi": ["みせ"],
+    "strokes": 8,
+    "radical": "广",
+    "words": [
+      {"word": "店", "reading": "みせ", "meaning": "가게"},
+      {"word": "書店", "reading": "しょてん", "meaning": "서점"},
+      {"word": "売店", "reading": "ばいてん", "meaning": "매점"}
+    ],
+    "example_sentences": [
+      {"sentence": "店で買い物します。", "reading": "みせで かいものします。", "translation": "가게에서 쇼핑합니다."},
+      {"sentence": "書店で本を買います。", "reading": "しょてんで ほんを かいます。", "translation": "서점에서 책을 삽니다."}
+    ]
+  },
+  {
+    "kanji": "駅",
+    "level": "N5",
+    "korean_meaning": "역",
+    "korean_pronunciation": "역",
+    "onyomi": ["エキ"],
+    "kunyomi": [],
+    "strokes": 14,
+    "radical": "馬",
+    "words": [
+      {"word": "駅", "reading": "えき", "meaning": "역"},
+      {"word": "駅前", "reading": "えきまえ", "meaning": "역 앞"},
+      {"word": "駅員", "reading": "えきいん", "meaning": "역원"}
+    ],
+    "example_sentences": [
+      {"sentence": "駅で友達を待ちます。", "reading": "えきで ともだちを まちます。", "translation": "역에서 친구를 기다립니다."},
+      {"sentence": "駅前にカフェがあります。", "reading": "えきまえに カフェが あります。", "translation": "역 앞에 카페가 있습니다."}
+    ]
+  },
+  {
+    "kanji": "山",
+    "level": "N5",
+    "korean_meaning": "산",
+    "korean_pronunciation": "산",
+    "onyomi": ["サン"],
+    "kunyomi": ["やま"],
+    "strokes": 3,
+    "radical": "山",
+    "words": [
+      {"word": "山", "reading": "やま", "meaning": "산"},
+      {"word": "登山", "reading": "とざん", "meaning": "등산"},
+      {"word": "火山", "reading": "かざん", "meaning": "화산"}
+    ],
+    "example_sentences": [
+      {"sentence": "山に登ります。", "reading": "やまに のぼります。", "translation": "산에 오릅니다."},
+      {"sentence": "火山を見ました。", "reading": "かざんを みました。", "translation": "화산을 봤습니다."}
+    ]
+  },
+  {
+    "kanji": "川",
+    "level": "N5",
+    "korean_meaning": "강",
+    "korean_pronunciation": "천",
+    "onyomi": ["セン"],
+    "kunyomi": ["かわ"],
+    "strokes": 3,
+    "radical": "川",
+    "words": [
+      {"word": "川", "reading": "かわ", "meaning": "강"},
+      {"word": "河川", "reading": "かせん", "meaning": "하천"},
+      {"word": "川岸", "reading": "かわぎし", "meaning": "강변"}
+    ],
+    "example_sentences": [
+      {"sentence": "川で泳ぎます。", "reading": "かわで およぎます。", "translation": "강에서 수영합니다."},
+      {"sentence": "川岸を歩きます。", "reading": "かわぎしを あるきます。", "translation": "강변을 걷습니다."}
+    ]
+  },
+  {
+    "kanji": "田",
+    "level": "N5",
+    "korean_meaning": "논",
+    "korean_pronunciation": "전",
+    "onyomi": ["デン"],
+    "kunyomi": ["た"],
+    "strokes": 5,
+    "radical": "田",
+    "words": [
+      {"word": "田", "reading": "た", "meaning": "논"},
+      {"word": "田んぼ", "reading": "たんぼ", "meaning": "논"},
+      {"word": "農田", "reading": "のうでん", "meaning": "농경지"}
+    ],
+    "example_sentences": [
+      {"sentence": "田で米を作ります。", "reading": "たで こめを つくります。", "translation": "논에서 쌀을 만듭니다."},
+      {"sentence": "田んぼを見ました。", "reading": "たんぼを みました。", "translation": "논을 봤습니다."}
+    ]
+  },
+  {
+    "kanji": "米",
+    "level": "N5",
+    "korean_meaning": "쌀",
+    "korean_pronunciation": "미",
+    "onyomi": ["ベイ", "マイ"],
+    "kunyomi": ["こめ"],
+    "strokes": 6,
+    "radical": "米",
+    "words": [
+      {"word": "米", "reading": "こめ", "meaning": "쌀"},
+      {"word": "米国", "reading": "べいこく", "meaning": "미국"},
+      {"word": "米粒", "reading": "こめつぶ", "meaning": "쌀알"}
+    ],
+    "example_sentences": [
+      {"sentence": "米を炊きます。", "reading": "こめを たきます。", "translation": "쌀을 짓습니다."},
+      {"sentence": "米国に旅行に行きます。", "reading": "べいこくに りょこうに いきます。", "translation": "미국에 여행을 갑니다."}
+    ]
+  },
+  {
+    "kanji": "貝",
+    "level": "N5",
+    "korean_meaning": "조개",
+    "korean_pronunciation": "패",
+    "onyomi": ["バイ"],
+    "kunyomi": ["かい"],
+    "strokes": 7,
+    "radical": "貝",
+    "words": [
+      {"word": "貝", "reading": "かい", "meaning": "조개"},
+      {"word": "貝殻", "reading": "かいがら", "meaning": "조개껍데기"},
+      {"word": "海貝", "reading": "うみがい", "meaning": "바다 조개"}
+    ],
+    "example_sentences": [
+      {"sentence": "貝を拾います。", "reading": "かいを ひろいます。", "translation": "조개를 줍습니다."},
+      {"sentence": "貝殻がきれいです。", "reading": "かいがらが きれいです。", "translation": "조개껍데기가 예쁩니다."}
+    ]
+  },
+  {
+    "kanji": "車",
+    "level": "N5",
+    "korean_meaning": "차",
+    "korean_pronunciation": "차",
+    "onyomi": ["シャ"],
+    "kunyomi": ["くるま"],
+    "strokes": 7,
+    "radical": "車",
+    "words": [
+      {"word": "車", "reading": "くるま", "meaning": "차"},
+      {"word": "電車", "reading": "でんしゃ", "meaning": "전철"},
+      {"word": "自動車", "reading": "じどうしゃ", "meaning": "자동차"}
+    ],
+    "example_sentences": [
+      {"sentence": "車に乗ります。", "reading": "くるまに のります。", "translation": "차를 탄다."},
+      {"sentence": "電車で学校に行きます。", "reading": "でんしゃで がっこうに いきます。", "translation": "전철로 학교에 갑니다."}
+    ]
+  },
+  {
+    "kanji": "電",
+    "level": "N5",
+    "korean_meaning": "전기",
+    "korean_pronunciation": "전",
+    "onyomi": ["デン"],
+    "kunyomi": [],
+    "strokes": 13,
+    "radical": "雨",
+    "words": [
+      {"word": "電気", "reading": "でんき", "meaning": "전기"},
+      {"word": "電車", "reading": "でんしゃ", "meaning": "전철"},
+      {"word": "電話", "reading": "でんわ", "meaning": "전화"}
+    ],
+    "example_sentences": [
+      {"sentence": "電気を消します。", "reading": "でんきを けします。", "translation": "전기를 끕니다."},
+      {"sentence": "電話をかけます。", "reading": "でんわを かけます。", "translation": "전화를 겁니다."}
+    ]
+  },
+  {
+    "kanji": "雨",
+    "level": "N5",
+    "korean_meaning": "비",
+    "korean_pronunciation": "우",
+    "onyomi": ["ウ"],
+    "kunyomi": ["あめ"],
+    "strokes": 8,
+    "radical": "雨",
+    "words": [
+      {"word": "雨", "reading": "あめ", "meaning": "비"},
+      {"word": "雨傘", "reading": "あまがさ", "meaning": "우산"},
+      {"word": "大雨", "reading": "おおあめ", "meaning": "큰비"}
+    ],
+    "example_sentences": [
+      {"sentence": "雨が降ります。", "reading": "あめが ふります。", "translation": "비가 내립니다."},
+      {"sentence": "雨傘を借ります。", "reading": "あまがさを かります。", "translation": "우산을 빌립니다."}
+    ]
+  },
+  {
+    "kanji": "雪",
+    "level": "N5",
+    "korean_meaning": "눈",
+    "korean_pronunciation": "설",
+    "onyomi": ["セツ"],
+    "kunyomi": ["ゆき"],
+    "strokes": 11,
+    "radical": "雨",
+    "words": [
+      {"word": "雪", "reading": "ゆき", "meaning": "눈"},
+      {"word": "大雪", "reading": "おおゆき", "meaning": "큰눈"},
+      {"word": "雪だるま", "reading": "ゆきだるま", "meaning": "눈사람"}
+    ],
+    "example_sentences": [
+      {"sentence": "雪が降ります。", "reading": "ゆきが ふります。", "translation": "눈이 내립니다."},
+      {"sentence": "雪だるまを作ります。", "reading": "ゆきだるまを つくります。", "translation": "눈사람을 만듭니다."}
+    ]
+  },
+  {
+    "kanji": "雲",
+    "level": "N5",
+    "korean_meaning": "구름",
+    "korean_pronunciation": "운",
+    "onyomi": ["ウン"],
+    "kunyomi": ["くも"],
+    "strokes": 12,
+    "radical": "雨",
+    "words": [
+      {"word": "雲", "reading": "くも", "meaning": "구름"},
+      {"word": "曇り", "reading": "くもり", "meaning": "흐림"},
+      {"word": "白雲", "reading": "はくうん", "meaning": "흰구름"}
+    ],
+    "example_sentences": [
+      {"sentence": "雲が多いです。", "reading": "くもが おおいです。", "translation": "구름이 많습니다."},
+      {"sentence": "今日は曇りです。", "reading": "きょうは くもりです。", "translation": "오늘은 흐립니다."}
+    ]
+  },
+  {
+    "kanji": "空",
+    "level": "N5",
+    "korean_meaning": "하늘, 빈",
+    "korean_pronunciation": "공",
+    "onyomi": ["クウ"],
+    "kunyomi": ["そら", "あく"],
+    "strokes": 8,
+    "radical": "穴",
+    "words": [
+      {"word": "空", "reading": "そら", "meaning": "하늘"},
+      {"word": "空気", "reading": "くうき", "meaning": "공기"},
+      {"word": "空港", "reading": "くうこう", "meaning": "공항"}
+    ],
+    "example_sentences": [
+      {"sentence": "空が青いです。", "reading": "そらが あおいです。", "translation": "하늘이 파랗습니다."},
+      {"sentence": "空港に行きます。", "reading": "くうこうに いきます。", "translation": "공항에 갑니다."}
+    ]
+  },
+  {
+    "kanji": "風",
+    "level": "N5",
+    "korean_meaning": "바람",
+    "korean_pronunciation": "풍",
+    "onyomi": ["フウ"],
+    "kunyomi": ["かぜ"],
+    "strokes": 9,
+    "radical": "風",
+    "words": [
+      {"word": "風", "reading": "かぜ", "meaning": "바람"},
+      {"word": "台風", "reading": "たいふう", "meaning": "태풍"},
+      {"word": "風邪", "reading": "かぜ", "meaning": "감기"}
+    ],
+    "example_sentences": [
+      {"sentence": "風が強いです。", "reading": "かぜが つよいです。", "translation": "바람이 셉니다."},
+      {"sentence": "風邪をひきました。", "reading": "かぜを ひきました。", "translation": "감기에 걸렸습니다."}
+    ]
+  },
+  {
+    "kanji": "花",
+    "level": "N5",
+    "korean_meaning": "꽃",
+    "korean_pronunciation": "화",
+    "onyomi": ["カ"],
+    "kunyomi": ["はな"],
+    "strokes": 7,
+    "radical": "艸",
+    "words": [
+      {"word": "花", "reading": "はな", "meaning": "꽃"},
+      {"word": "花見", "reading": "はなみ", "meaning": "꽃구경"},
+      {"word": "花瓶", "reading": "かびん", "meaning": "꽃병"}
+    ],
+    "example_sentences": [
+      {"sentence": "花がきれいです。", "reading": "はなが きれいです。", "translation": "꽃이 예쁩니다."},
+      {"sentence": "花見に行きます。", "reading": "はなみに いきます。", "translation": "꽃구경하러 갑니다."}
+    ]
+  },
+  {
+    "kanji": "草",
+    "level": "N5",
+    "korean_meaning": "풀",
+    "korean_pronunciation": "초",
+    "onyomi": ["ソウ"],
+    "kunyomi": ["くさ"],
+    "strokes": 9,
+    "radical": "艸",
+    "words": [
+      {"word": "草", "reading": "くさ", "meaning": "풀"},
+      {"word": "雑草", "reading": "ざっそう", "meaning": "잡초"},
+      {"word": "草花", "reading": "そうか", "meaning": "초화"}
+    ],
+    "example_sentences": [
+      {"sentence": "草を刈ります。", "reading": "くさを かります。", "translation": "풀을 깎습니다."},
+      {"sentence": "雑草を抜きます。", "reading": "ざっそうを ぬきます。", "translation": "잡초를 뽑습니다."}
+    ]
+  },
+  {
+    "kanji": "林",
+    "level": "N5",
+    "korean_meaning": "수풀",
+    "korean_pronunciation": "림",
+    "onyomi": ["リン"],
+    "kunyomi": ["はやし"],
+    "strokes": 8,
+    "radical": "木",
+    "words": [
+      {"word": "林", "reading": "はやし", "meaning": "수풀"},
+      {"word": "森林", "reading": "しんりん", "meaning": "삼림"},
+      {"word": "林道", "reading": "りんどう", "meaning": "임도"}
+    ],
+    "example_sentences": [
+      {"sentence": "林で散歩します。", "reading": "はやしで さんぽします。", "translation": "수풀에서 산책합니다."},
+      {"sentence": "森林を守ります。", "reading": "しんりんを まもります。", "translation": "삼림을 보호합니다."}
+    ]
+  },
+  {
+    "kanji": "森",
+    "level": "N5",
+    "korean_meaning": "숲",
+    "korean_pronunciation": "삼",
+    "onyomi": ["シン"],
+    "kunyomi": ["もり"],
+    "strokes": 12,
+    "radical": "木",
+    "words": [
+      {"word": "森", "reading": "もり", "meaning": "숲"},
+      {"word": "森林", "reading": "しんりん", "meaning": "삼림"},
+      {"word": "森の中", "reading": "もりのなか", "meaning": "숲속"}
+    ],
+    "example_sentences": [
+      {"sentence": "森でキャンプします。", "reading": "もりで キャンプします。", "translation": "숲에서 캠핑합니다."},
+      {"sentence": "森林が美しいです。", "reading": "しんりんが うつくしいです。", "translation": "삼림이 아름답습니다."}
+    ]
+  },
+  {
+    "kanji": "魚",
+    "level": "N5",
+    "korean_meaning": "물고기",
+    "korean_pronunciation": "어",
+    "onyomi": ["ギョ"],
+    "kunyomi": ["さかな"],
+    "strokes": 11,
+    "radical": "魚",
+    "words": [
+      {"word": "魚", "reading": "さかな", "meaning": "물고기"},
+      {"word": "金魚", "reading": "きんぎょ", "meaning": "금붕어"},
+      {"word": "魚屋", "reading": "さかなや", "meaning": "생선 가게"}
+    ],
+    "example_sentences": [
+      {"sentence": "魚を食べます。", "reading": "さかなを たべます。", "translation": "물고기를 먹습니다."},
+      {"sentence": "金魚を飼います。", "reading": "きんぎょを かいます。", "translation": "금붕어를 기릅니다."}
+    ]
+  },
+  {
+    "kanji": "鳥",
+    "level": "N5",
+    "korean_meaning": "새",
+    "korean_pronunciation": "조",
+    "onyomi": ["チョウ"],
+    "kunyomi": ["とり"],
+    "strokes": 11,
+    "radical": "鳥",
+    "words": [
+      {"word": "鳥", "reading": "とり", "meaning": "새"},
+      {"word": "小鳥", "reading": "ことり", "meaning": "작은 새"},
+      {"word": "鳥肉", "reading": "とりにく", "meaning": "닭고기"}
+    ],
+    "example_sentences": [
+      {"sentence": "鳥が飛びます。", "reading": "とりが とびます。", "translation": "새가 날아갑니다."},
+      {"sentence": "小鳥が歌います。", "reading": "ことりが うたいます。", "translation": "작은 새가 노래합니다."}
     ]
   }
 ]
