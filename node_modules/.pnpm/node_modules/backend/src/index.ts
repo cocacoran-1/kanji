@@ -34,7 +34,7 @@ const pool = new Pool({
   port: parseInt(process.env.DB_PORT || '5432', 10),
 });
 
-// 데이터베이스 초기화 함수
+// 데이터베이스 초기화 함수 (kanji_data.json 전체를 읽는 원래 버전)
 async function initializeDatabase() {
   let kanjiData: Kanji[] = [];
   try {
@@ -44,11 +44,10 @@ async function initializeDatabase() {
     console.log('Kanji data loaded successfully from JSON.');
   } catch (error) {
     console.error('Could not load kanji_data.json:', error);
-    return; // 데이터 파일이 없으면 초기화를 중단
+    return;
   }
 
   try {
-    // DB 테이블 생성 (IF NOT EXISTS로 오류 방지)
     await pool.query(`
       CREATE TABLE IF NOT EXISTS kanji (
         id SERIAL PRIMARY KEY,
@@ -65,13 +64,11 @@ async function initializeDatabase() {
     `);
     console.log('Table "kanji" checked/created successfully.');
 
-    // 데이터베이스에 데이터 채우기 (Seeding)
-    console.log('Seeding database with kanji data...');
     for (const item of kanjiData) {
       await pool.query(
         `INSERT INTO kanji (kanji, level, korean_meaning, onyomi, kunyomi, strokes, radical, words, example_sentences)
          VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
-         ON CONFLICT (kanji) DO NOTHING;`, // 이미 있는 한자는 건너뛰기
+         ON CONFLICT (kanji) DO NOTHING;`,
         [
           item.kanji,
           item.level,
@@ -91,7 +88,9 @@ async function initializeDatabase() {
   }
 }
 
-// API 라우트 설정
+// --- API 라우트 설정 ---
+
+// GET /api/kanji - 모든 한자 목록 반환
 app.get('/api/kanji', async (req: Request, res: Response) => {
   try {
     const result = await pool.query('SELECT * FROM kanji ORDER BY id ASC');
@@ -102,8 +101,26 @@ app.get('/api/kanji', async (req: Request, res: Response) => {
   }
 });
 
-// 서버 시작
+// ✨✨✨ 새로 추가된 부분: 특정 한자 정보 반환 API ✨✨✨
+app.get('/api/kanji/:character', async (req: Request, res: Response) => {
+  const { character } = req.params;
+  try {
+    const result = await pool.query('SELECT * FROM kanji WHERE kanji = $1', [character]);
+
+    if (result.rows.length === 0) {
+      return res.status(404).json({ message: 'Kanji not found' });
+    }
+
+    res.json(result.rows[0]);
+  } catch (error) {
+    console.error(`Error fetching details for kanji ${character}:`, error);
+    res.status(500).json({ message: 'Failed to fetch kanji details' });
+  }
+});
+
+
+// --- 서버 시작 ---
 app.listen(port, async () => {
   console.log(`Backend server is running on http://localhost:${port}`);
-  await initializeDatabase(); // 서버가 시작되면 데이터베이스 초기화 실행
+  await initializeDatabase();
 });

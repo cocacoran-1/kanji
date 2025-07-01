@@ -35,7 +35,7 @@ const pool = new Pool({
   port: parseInt(process.env.DB_PORT || '5432', 10),
 });
 
-// 데이터베이스 초기화 함수
+// 데이터베이스 초기화 함수 (kanji_data.json 전체를 읽는 원래 버전)
 async function initializeDatabase() {
   let kanjiData: Kanji[] = [];
   try {
@@ -50,6 +50,7 @@ async function initializeDatabase() {
 
   try {
     // DB 테이블 생성: korean_pronunciation 컬럼 추가
+
     await pool.query(`
       CREATE TABLE IF NOT EXISTS kanji (
         id SERIAL PRIMARY KEY,
@@ -67,14 +68,13 @@ async function initializeDatabase() {
     `);
     console.log('Table "kanji" checked/created successfully.');
 
-    // 데이터베이스에 데이터 채우기 (Seeding)
-    console.log('Seeding database with kanji data...');
     for (const item of kanjiData) {
       // INSERT 문 수정: korean_pronunciation 추가
       await pool.query(
         `INSERT INTO kanji (kanji, level, korean_meaning, korean_pronunciation, onyomi, kunyomi, strokes, radical, words, example_sentences)
          VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
          ON CONFLICT (kanji) DO NOTHING;`, // 이미 있는 한자는 건너뛰기
+
         [
           item.kanji,
           item.level,
@@ -109,6 +109,7 @@ app.get('/api/kanji', async (req: Request, res: Response) => {
 });
 
 // GET /api/kanji/:character - 특정 한자 정보 반환
+
 app.get('/api/kanji/:character', async (req: Request, res: Response) => {
   const { character } = req.params;
   try {
@@ -116,6 +117,7 @@ app.get('/api/kanji/:character', async (req: Request, res: Response) => {
     if (result.rows.length === 0) {
       return res.status(404).json({ message: 'Kanji not found' });
     }
+
     res.json(result.rows[0]);
   } catch (error) {
     console.error(`Error fetching details for kanji ${character}:`, error);
